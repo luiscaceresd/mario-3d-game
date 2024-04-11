@@ -42,7 +42,7 @@ namespace HelloMarioFramework
 
         [Tooltip("Optional Cinemachine Virtual Camera to switch to")]
         [SerializeField]
-        private CinemachineVirtualCamera camera = null;
+        private new CinemachineVirtualCamera camera = null;
         private static CinemachineVirtualCamera prevCamera = null;
 
         [Tooltip("Whether to lock the player's z axis after warping")]
