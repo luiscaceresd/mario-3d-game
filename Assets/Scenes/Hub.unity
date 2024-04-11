@@ -390,6 +390,53 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &56109007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56109008}
+  - component: {fileID: 56109009}
+  m_Layer: 0
+  m_Name: '[generated-meshes]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56109008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56109007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1461597135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &56109009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56109007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3643d4978096d4880d7edbf4f65a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Version: 1
+  owner: {fileID: 1461597134}
+  helperSurfaces: []
 --- !u!43 &66259274
 Mesh:
   m_ObjectHideFlags: 0
@@ -1649,7 +1696,7 @@ PrefabInstance:
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
       propertyPath: levelName
-      value: Main
+      value: Noobland
       objectReference: {fileID: 0}
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
@@ -1669,7 +1716,7 @@ PrefabInstance:
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
       propertyPath: levelStars.Array.data[0].scene.scenePath
-      value: Assets/Scenes/Main.unity
+      value: Assets/Scenes/Noobland.unity
       objectReference: {fileID: 0}
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
@@ -2250,7 +2297,7 @@ PrefabInstance:
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
       propertyPath: levelName
-      value: Main
+      value: Noobland
       objectReference: {fileID: 0}
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
@@ -2285,7 +2332,7 @@ PrefabInstance:
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
       propertyPath: levelStars.Array.data[0].scene.scenePath
-      value: Assets/Scenes/Main.unity
+      value: Assets/Scenes/Noobland.unity
       objectReference: {fileID: 0}
     - target: {fileID: 386521948286036092, guid: 12bce3644f665f644a1155205c782c87,
         type: 3}
@@ -4265,8 +4312,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816199859543886907, guid: 9814091251bf2b54f8ea76096d68808f,
         type: 3}
+      propertyPath: levelName
+      value: Nostalgia
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816199859543886907, guid: 9814091251bf2b54f8ea76096d68808f,
+        type: 3}
+      propertyPath: levelStars.Array.data[0].starName
+      value: Peach
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816199859543886907, guid: 9814091251bf2b54f8ea76096d68808f,
+        type: 3}
       propertyPath: levelStars.Array.data[0].scene.scenePath
-      value: Assets/HelloMarioFramework/Scene/Tutorial/2D.unity
+      value: Assets/Scenes/2D.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8816199859543886907, guid: 9814091251bf2b54f8ea76096d68808f,
         type: 3}
@@ -6297,75 +6354,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &877459469
-GameObject:
-  m_ObjectHideFlags: 17
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 877459471}
-  - component: {fileID: 877459470}
-  m_Layer: 0
-  m_Name: '[default-CSGModel]'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 124
-  m_IsActive: 1
---- !u!114 &877459470
-MonoBehaviour:
-  m_ObjectHideFlags: 17
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877459469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8672dcc90e16b0a489a41edf56e016f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PrefabBehaviour: 0
-  PrefabSourceAlignment: 4
-  PrefabDestinationAlignment: 0
-  Version: 1.1
-  infiniteBrush: {fileID: 0}
-  Settings: 1537
-  VertexChannels: 14
-  ReceiveGI: 2
-  MeshColliderCookingOptions: 14
-  ShowGeneratedMeshes: 0
-  DefaultPhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a,
-    type: 2}
-  exportType: 0
-  originType: 0
-  exportColliders: 0
-  exportPath: 
-  angleError: 1
-  areaError: 1
-  hardAngle: 60
-  packMargin: 20
-  scaleInLightmap: 1
-  autoUVMaxDistance: 0.5
-  autoUVMaxAngle: 89
-  minimumChartSize: 4
---- !u!4 &877459471
-Transform:
-  m_ObjectHideFlags: 17
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877459469}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2058355124}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &883017712
 GameObject:
   m_ObjectHideFlags: 0
@@ -7344,7 +7332,7 @@ PrefabInstance:
     - target: {fileID: 1696987758972695823, guid: e4ceb39af93788541855b718264c4e07,
         type: 3}
       propertyPath: m_Text
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3855350603688705088, guid: e4ceb39af93788541855b718264c4e07,
         type: 3}
@@ -7404,7 +7392,12 @@ PrefabInstance:
     - target: {fileID: 5158457915513885379, guid: e4ceb39af93788541855b718264c4e07,
         type: 3}
       propertyPath: count
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5158457915513885379, guid: e4ceb39af93788541855b718264c4e07,
+        type: 3}
+      propertyPath: deleteWhenSmaller
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10453,6 +10446,75 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1461597133
+GameObject:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461597135}
+  - component: {fileID: 1461597134}
+  m_Layer: 0
+  m_Name: '[default-CSGModel]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 124
+  m_IsActive: 1
+--- !u!114 &1461597134
+MonoBehaviour:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461597133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8672dcc90e16b0a489a41edf56e016f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabBehaviour: 0
+  PrefabSourceAlignment: 4
+  PrefabDestinationAlignment: 0
+  Version: 1.1
+  infiniteBrush: {fileID: 0}
+  Settings: 1537
+  VertexChannels: 14
+  ReceiveGI: 2
+  MeshColliderCookingOptions: 14
+  ShowGeneratedMeshes: 0
+  DefaultPhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a,
+    type: 2}
+  exportType: 0
+  originType: 0
+  exportColliders: 0
+  exportPath: 
+  angleError: 1
+  areaError: 1
+  hardAngle: 60
+  packMargin: 20
+  scaleInLightmap: 1
+  autoUVMaxDistance: 0.5
+  autoUVMaxAngle: 89
+  minimumChartSize: 4
+--- !u!4 &1461597135
+Transform:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461597133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 56109008}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479690777
 GameObject:
   m_ObjectHideFlags: 0
@@ -14171,53 +14233,6 @@ MonoBehaviour:
   HasGeneratedNormals: 0
   HasUV2: 0
   LightingHashValue: 0
---- !u!1 &2058355123
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2058355124}
-  - component: {fileID: 2058355125}
-  m_Layer: 0
-  m_Name: '[generated-meshes]'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2058355124
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058355123}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 877459471}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2058355125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058355123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3643d4978096d4880d7edbf4f65a50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Version: 1
-  owner: {fileID: 877459470}
-  helperSurfaces: []
 --- !u!1 &2085199431
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,4 +14519,4 @@ SceneRoots:
   - {fileID: 1520089622}
   - {fileID: 99336567}
   - {fileID: 1301087469}
-  - {fileID: 877459471}
+  - {fileID: 1461597135}

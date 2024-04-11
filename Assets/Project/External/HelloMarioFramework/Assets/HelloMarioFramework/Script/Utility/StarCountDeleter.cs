@@ -20,17 +20,19 @@ namespace HelloMarioFramework
         [Tooltip("Number of stars to check for")]
         [SerializeField]
         private int count = 0;
-        [SerializeField] private GameObject warper;
+        [SerializeField] private GameObject objectDestroy;
         
         void Start()
         {
             if ((deleteWhenSmaller && SaveData.save.GetStarCount() <= count) || (!deleteWhenSmaller && SaveData.save.GetStarCount() >= count))
+            {
                 Destroy(gameObject);
                 //enable warper
-                if (warper != null)
+                if (objectDestroy != null)
                 {
-                    warper.SetActive(true);
+                    Destroy(objectDestroy);
                 }
+            }
             
         }
 
